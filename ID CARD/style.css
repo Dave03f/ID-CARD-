@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bafac4; /* light green */
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 700px;
+    margin: 80px auto;
+    background: #ffbfd3; /* pink */
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.card h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.img-box {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    text-align: left;
+    font-size: 22px;
+}
+
+.info span {
+    font-weight: 800;
+}
